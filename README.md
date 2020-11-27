@@ -1,1 +1,0 @@
-# MinaJP.github.io
