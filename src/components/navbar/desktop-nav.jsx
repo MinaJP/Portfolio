@@ -38,7 +38,7 @@ const desktopNav = (props) => (
             </Link>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1bTPbOZmBWR6Z_GkvLWyh5gDb5RujaJRl/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1OrH_U13bnTzALbn7SXmCQvfhkSc7i0Ur/view?usp=sharing">
             <span className="my-hover-1">Resume</span>
             </a>
            
