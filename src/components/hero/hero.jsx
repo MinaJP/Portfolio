@@ -41,7 +41,7 @@ const hero = () => (
           <div className="hero-info">
             <dl className="wrapper">
             <dt className="topic"><span className="sketch-highlight"></span>Currently Working With</dt>
-            <dd><span className="underline">Disrupt the System</span> as part of design-piblicity and webdev teams to host ideathon with the focus on social justice.</dd>
+            <dd><span className="underline">Disrupt the System</span> as part of design-publicity and webdev teams to host ideathon with the focus on social justice.</dd>
             <dd><span className="underline">Project Campus</span> to launch MVP aiming to promote valuable conversation between prospective students, and current students and alumni volunteers.</dd>
             <dt className="topic"><span className="sketch-highlight"></span>Recent Explorations</dt>
             <dd >Marketing</dd>

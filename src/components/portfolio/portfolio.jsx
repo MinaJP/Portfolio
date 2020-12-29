@@ -35,7 +35,7 @@ class Portfolio extends React.Component {
           preview: Preview2,
           title: "Tax Calculator",
           tag: "role: design, implement user interface and sqlite database",
-          des:"Chrome Extension for displaying US post-tax prices when hover over products prices on relevant webpages",
+          des:"An interactive chrome extension that displays US post-tax prices when the user hovers mouse over price information on relevant webpages",
           link:"https://github.com/DoanhTran/tax_calculator"
         },
         {
@@ -43,7 +43,7 @@ class Portfolio extends React.Component {
           preview: Preview3,
           title: "Pawmodoro Timer",
           tag: "role: design, create graphics, implement UI and animations",
-          des:"A timer based on Pomodoro technique with animation which visually reflect countdown timer",
+          des:"A cute timer based on Pomodoro technique that reflects countdowns visually via animations",
           link:"https://github.com/linda-huang/pomodoro_timer"
         },
         
