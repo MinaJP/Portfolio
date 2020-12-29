@@ -5,8 +5,8 @@
 	 width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
 <g>
 	
-		<rect x="-5.048" y="14.421" transform="matrix(0.7071 0.7071 -0.7071 0.7071 15.9999 -6.6276)" fill="#FFFFFF" width="42.097" height="3.158"/>
+		<rect x="-5.048" y="14.421" transform="matrix(0.7071 0.7071 -0.7071 0.7071 15.9999 -6.6276)" fill="#CCCCCC" width="42.097" height="3.158"/>
 	
-		<rect x="-5.049" y="14.422" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -6.6276 16.0001)" fill="#FFFFFF" width="42.097" height="3.157"/>
+		<rect x="-5.049" y="14.422" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -6.6276 16.0001)" fill="#CCCCCC" width="42.097" height="3.157"/>
 </g>
 </svg>

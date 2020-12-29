@@ -3,15 +3,16 @@ import React from "react";
 import "./projectBox.scss";
 
 const projectBox = (props) => (
-  <div className="portfolio__box">
-    <img src={props.preview} alt="project" />
-    <div className="portfolio__hover-info flex-center">
-      <div className="text-center">
-        <p className="font30 weight800">{props.title}</p>
-        <p className="font12 weight500">{props.tag}</p>
-      </div>
-    </div>
-  </div>
+  <a className="portfolio__box" href={props.link}>
+    <img className="proj_im" src={props.preview} alt="project" />
+    
+      
+        <div className="font20 text-box">{props.title}</div>
+        <div className="font14 role text-box">{props.tag}</div>
+        <div className="font16 text-box">{props.des}</div>
+     
+    
+  </a>
 );
 
 export default projectBox;

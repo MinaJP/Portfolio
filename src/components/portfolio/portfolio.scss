@@ -57,6 +57,11 @@
   }
 }
 
+.proj{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
 .my-masonry-grid {
   display: -webkit-box; /* Not needed if autoprefixing */
   display: -ms-flexbox; /* Not needed if autoprefixing */

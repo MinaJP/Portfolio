@@ -11,71 +11,50 @@ const mobileNav = (props) => (
     <div className="mobile__navbar-close" onClick={props.closeMobileMenu}>
       <img src={CloseIcons} alt="close" />
     </div>
-    <div className="mobile__navbar-logo flex-center">
-      <Link
-        to="hero"
-        spy={true}
-        smooth={true}
-        offset={0}
-        duration={500}
-        onClick={props.closeMobileMenu}
-      >
-        <img src={Logo} alt="logo" />
-      </Link>
-    </div>
+   
     <div className="mobile__navbar-menu">
       <ul>
+      <li className="flex-center">
+      <Link
+      activeClass="active-link"
+        to="hero"
+        spy={false}
+        smooth={true}
+        offset={0}
+      
+        onClick={props.closeMobileMenu}
+      >
+       About
+      </Link>
+        </li>
         <li className="flex-center">
           <Link
             activeClass="active-link"
             to="portfolio"
-            spy={true}
+            spy={false}
             smooth={true}
             offset={-70}
-            duration={500}
+       
             onClick={props.closeMobileMenu}
           >
-            WORK
-          </Link>
-        </li>
-        <li className="flex-center">
-          <Link
-            activeClass="active-link"
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            onClick={props.closeMobileMenu}
-          >
-            ABOUT
-          </Link>
-        </li>
-        <li className="flex-center">
-          <Link
-            activeClass="active-link"
-            to="blog"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            onClick={props.closeMobileMenu}
-          >
-            BLOG
+            Work
           </Link>
         </li>
         <li className="flex-center">
           <Link
             activeClass="active-link"
             to="contact"
-            spy={true}
+            spy={false}
             smooth={true}
             offset={-70}
             duration={500}
             onClick={props.closeMobileMenu}
           >
-            CONTACT
+            Contact
           </Link>
+        </li>
+        <li className="flex-center">
+          <a href="https://drive.google.com/file/d/1bTPbOZmBWR6Z_GkvLWyh5gDb5RujaJRl/view?usp=sharing">Resume</a>
         </li>
       </ul>
     </div>

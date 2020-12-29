@@ -3,41 +3,45 @@ import { Link } from "react-scroll";
  // SCSS
 import './navbar.scss';
 // Assets
-import LogoImg from '../../assets/navbar/logo.svg';
+import LogoImg from '../../assets/navbar/logo192.png';
 import MobileMenuIcon from '../../assets/navbar/mobile-menu.svg';
 
 const desktopNav = (props) => (
   <nav className={`Navbar ${!props.userIsScrolled ? "extraLargeNavbar" : ""}`}>
-    <div className="wrapper flex-s-between">
+    <div className="wrapper-nav flex-s-between">
+      
       <div>
         <Link to="hero" spy={true} smooth={true} offset={0} duration={500}>
-          <img src={LogoImg} alt="logo" className="pointer" />
+          <img src={LogoImg} alt="logo" className="logo" />
         </Link>
       </div>
+      <div className="flex-grow-1"></div>
       <div className="mobile__menu" onClick={props.mobileMenuOpen}>
         <img src={MobileMenuIcon} alt="menu" />
       </div>
-      <div className="desktop__menu">
+     
+      <div className="desktop__menu font20 weight400">
         <ul className="flex-s-between">
-          <li>
-            <Link activeClass="active-link" to="portfolio" spy={true} smooth={true} offset={-70} duration={500}>
-              WORK
+        <li>
+            <Link activeClass="active_nav" to="hero" spy={true} smooth={true} offset={-70} duration={500}>
+              <span className="my-hover-1">About</span>
             </Link>
           </li>
           <li>
-            <Link activeClass="active-link" to="about" spy={true} smooth={true} offset={-70} duration={500}>
-              ABOUT
+            <Link activeClass="active_nav" to="portfolio" spy={true} smooth={true} offset={-70} duration={500}>
+               <span className="my-hover-1">Work</span>
             </Link>
           </li>
           <li>
-            <Link activeClass="active-link" to="blog" spy={true} smooth={true} offset={-70} duration={500}>
-              BLOG
+            <Link activeClass="active_nav" to="contact" spy={true} smooth={true} offset={-70} duration={500}>
+            <span className="my-hover-1">Contact</span>
             </Link>
           </li>
           <li>
-            <Link activeClass="active-link" to="contact" spy={true} smooth={true} offset={-70} duration={500}>
-              CONTACT
-            </Link>
+            <a href="https://drive.google.com/file/d/1bTPbOZmBWR6Z_GkvLWyh5gDb5RujaJRl/view?usp=sharing">
+            <span className="my-hover-1">Resume</span>
+            </a>
+           
           </li>
         </ul>
       </div>

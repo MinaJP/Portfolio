@@ -3,16 +3,33 @@
 
 
 .contact__social {
-  width: 100%;
-  margin: 60px 0 10px 0;
+  width: 50%;
+  height: 100%;
+  margin:auto;
   transition: 0.1s ease;
   cursor: pointer;
 }
 
 .contact__social:hover {
-  filter: invert(77%) sepia(99%) saturate(652%) hue-rotate(354deg) brightness(98%) contrast(111%);
+  filter: invert(77%) sepia(99%) saturate(100%) hue-rotate(150deg) brightness(70%) contrast(111%);
 }
 
+img.soc{
+  object-fit: contain;
+  height: 35px;
+  width: 35px;
+  margin:auto;
+  
+
+}
+.flex_box{
+  display: flex;
+  align-content: space-between;
+  align-items: flex-start;
+  width: 60%;
+  margin:auto
+
+}
 
 
 @media screen and (max-width: 990px) {

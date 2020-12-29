@@ -1,16 +1,19 @@
 @import '../../style/App.scss';
 
 .hero {
-  padding-top: 240px;
+  padding-top: 40px;
   width: 100%;
-  padding-bottom: 60px;
+  padding-bottom: 3rem;
   .hero-info {
-    padding-top: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right:20px ;
 
     p {
-      padding-top: 20px;
-      padding-bottom: 50px;
+      padding-top: 30px;
+      padding-bottom: 20px;
     }
+   
   }
 
   .hero-image {
@@ -18,28 +21,71 @@
     height: auto;
     float: right;
   }
+
+  
 }
+
+#intro{
+  position: relative;
+  // background-image:repeating-linear-gradient(red, yellow 10%, green 20%);
+  z-index: -50;
+  height: 500px;
+
+}
+
+dl{
+  padding-left: 50px;
+}
+
+
+
 
 @media screen and (max-width: 1080px) {
   .hero {
-    padding-top: 140px;
+    padding-top: 40px;
 
     .hero-info {
-      padding-top: 0px;
+      padding-top: 10px;
     }
 
     .hero-image {
       float: none;
       margin: 0 auto;
       margin-top: 50px;
+      
     }
   }
+}
+dd{
+  padding-left: 2.4rem;
+  padding: 1.4rem;
+  line-height: 2rem;
+
+
+
 }
 
 @media screen and (max-width: 990px) {
   .hero {
-    .hero-info {
+    p.p_hero, h1 {
       text-align: center;
     }
   }
 }
+
+  
+
+
+span.underline{
+  text-decoration: underline;
+}
+dt.link{
+  cursor: pointer;
+  
+
+}
+dt.link:hover{
+  text-decoration: underline;
+
+}
+

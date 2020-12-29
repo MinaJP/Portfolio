@@ -7,7 +7,7 @@
   left: 0;
   background-color: $white-color;  
   width: 100%;
-  padding: 9px 0;
+  padding: 6px 0;
   transition:  0.3s ease;
   z-index: 100;
 
@@ -16,6 +16,12 @@
     padding: 10px 15px;
     cursor: pointer;
   }
+
+  .logo{
+    width:65px;
+    
+  }
+
   .desktop__menu {
     display: block;
 
@@ -30,14 +36,26 @@
         padding-right: 0;
       }
       li:hover {
-        color: $main-color;
+        color: $black-color;
+        background-clip: content-box;
+        background-color :rgba(100, 157, 174,0.6);
+      
+        
+
+        
+        background-size: 0em;
+      
+
       }
+
+      
     }
   }
 }
 .extraLargeNavbar {
-  padding: 29px 0;
+  padding: 10px 0;
 }
+
 
 // MOBILE NAVBAR
 .mobile__navbar {
@@ -45,7 +63,7 @@
   position: fixed;
   top: 0;
   right: -100%;
-  background-color: $black-color;
+  background-color: $white-color;
   z-index: 1000;
   width: 50%;
   transition:  0.4s ease;
@@ -77,6 +95,7 @@
       }
       li:hover {
         color: $main-color;
+        border-radius: 15px;
       }
     }
   }
@@ -101,6 +120,14 @@
   display: block;
 }
 
+.active_nav{
+  font-weight: 600;
+  color:$main-color;
+
+}
+
+
+
 // MEDIA QUERIES
 @media screen and (max-width: 720px) {
   .Navbar {
@@ -121,3 +148,5 @@
     width: 100%;
   }
 }
+
+
