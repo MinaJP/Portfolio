@@ -284,8 +284,8 @@ Hover color for navbar
   top:-0.2em;
   border-width:8px;
   border-style:solid;
-  border-color:$main-color;
-  background-color:$main-color;
+  border-color:$second;
+  background-color:$second;
   opacity: 0.7;
   position:absolute;
   border-radius: 15px;
@@ -303,9 +303,9 @@ Hover color for navbar
   width:170%;
   border-width:8px;
   border-style:solid;
-  border-color:$second;
+  border-color:$main-color;
   border-radius: 15px;
-  background-color: $second;
+  background-color: $main-color;
   position:absolute;
   width:120%;
   height:1.5em;
