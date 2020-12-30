@@ -44,10 +44,9 @@ const hero = () => (
             <dd><span className="underline">Disrupt the System</span> as part of design-publicity and webdev teams to host ideathon with the focus on social justice.</dd>
             <dd><span className="underline">Project Campus</span> to launch MVP aiming to promote valuable conversation between prospective students, and current students and alumni volunteers.</dd>
             <dt className="topic"><span className="sketch-highlight"></span>Recent Explorations</dt>
-            <dd >Marketing</dd>
-            <dd>Computer Graphics</dd>
-            <dd>Web Design & Development</dd>
-            <dd>Analysis of Algorithms</dd>
+            <dd>Marketing<br/>Computer Graphics<br/>
+            Web Design & Development<br/>Analysis of Algorithms
+            </dd>
             <Link activeClass="active_nav" to="portfolio">
             <dt className="link"><span className="sketch-highlight"></span>Past Works👇</dt>
             </Link>

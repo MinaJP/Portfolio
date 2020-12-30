@@ -286,7 +286,7 @@ Hover color for navbar
   border-style:solid;
   border-color:$second;
   background-color:$second;
-  opacity: 0.7;
+  opacity: 0.4;
   position:absolute;
   border-radius: 15px;
   width:140%;
@@ -310,24 +310,31 @@ Hover color for navbar
   width:120%;
   height:1.5em;
   transform:rotate(1deg);
-  opacity:0.8;
+  opacity:0.6;
   // border-radius:10em;
 }
 @media screen and (min-width: 721px) {
-  p.p_hero,dt{
-    font-size: 2rem;
-    line-height: 5rem;
+  p.p_hero,dd{
+    font-size: 1.8rem;
+    line-height: 3.6rem;
 
   }
+  
+
+  dt{
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+
   img.he_im{
     position: relative;
     
     margin: auto;
-    
-    height: 300px;
+    padding: 20px;
+    height: 380px;
     z-index: -50;
     object-fit: contain;
-    opacity: 0.9;
+    opacity: 0.8;
   }
   h1{
     font-size: 2.5rem;
@@ -344,7 +351,7 @@ Hover color for navbar
     height: 200px;
     z-index: -50;
     object-fit: contain;
-    opacity: 0.9;
+    opacity: 0.8;
   }
   p.p_hero,dt{
     font-size: 1.5rem;

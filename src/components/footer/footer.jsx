@@ -10,7 +10,7 @@ const partnerBox = () => (
   
     <div className="wrapper right">
      <Link activeClass="active_nav" to="hero">
-     <span className="link">go up ☝️</span></Link>
+     <span className="link font20">go up ☝️</span></Link>
     </div>
   
 );

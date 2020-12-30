@@ -107,10 +107,10 @@ class Contact extends React.Component {
     //   modalRender = <Modal closeModal={this.closeModal} status="error" />;
     // }
     return (
-      <div id="contact">
+      <div id="contact" className="padding20 wrapper">
         {/* {modalRender} */}
-        <div className="wrapper">
-          <h1>Reach Me</h1>
+   
+       
          
 
           {/* <Row className="padding40">
@@ -138,11 +138,11 @@ class Contact extends React.Component {
             </Col>
           </Row>
           <ContactInfo />*/}
-          <div className="padding20 wrapper">
-          <ContactSocial /> 
-          </div>
          
-        </div>
+          <ContactSocial /> 
+     
+         
+       
       </div>
     );
   }
