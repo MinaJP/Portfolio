@@ -46,6 +46,15 @@ span.link:hover{
 
 }
 
+@media screen and (max-width: 720px){
+  span.link{
+    font-size: 1.6rem;
+
+  }
+
+
+}
+
 @media screen and (max-width: 580px) {
   .footer {
     .footer-box {

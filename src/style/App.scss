@@ -353,11 +353,16 @@ Hover color for navbar
     object-fit: contain;
     opacity: 0.8;
   }
-  p.p_hero,dt{
-    font-size: 1.5rem;
+  p.p_hero,dd{
+    font-size: 1.4rem;
     line-height: 3rem;
 
   }
+  dt{
+    font-size: 1.6rem;
+
+  }
+
   h1{
     font-size: 2.4rem;
     font-weight: 800;
