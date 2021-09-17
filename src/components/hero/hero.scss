@@ -1,7 +1,7 @@
 @import '../../style/App.scss';
 
 .hero {
-  padding-top: 40px;
+  padding-top: 20px;
   width: 100%;
   padding-bottom: 3rem;
   .hero-info {
@@ -42,7 +42,7 @@ dl{
 
 @media screen and (max-width: 1080px) {
   .hero {
-    padding-top: 40px;
+    padding-top: 20px;
 
     .hero-info {
       padding-top: 10px;

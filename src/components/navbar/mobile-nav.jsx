@@ -54,7 +54,7 @@ const mobileNav = (props) => (
           </Link>
         </li>
         <li className="flex-center">
-          <a href="https://drive.google.com/file/d/1OrH_U13bnTzALbn7SXmCQvfhkSc7i0Ur/view?usp=sharing">Resume</a>
+          <a href="https://drive.google.com/file/d/1Pi2zPDf9EUAu313QxUQfr0TrHvyrcz74/view?usp=sharing">Resume</a>
         </li>
       </ul>
     </div>

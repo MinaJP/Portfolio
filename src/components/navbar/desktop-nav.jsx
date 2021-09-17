@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-scroll";
- // SCSS
+// SCSS
 import './navbar.scss';
 // Assets
 import LogoImg from '../../assets/navbar/logo192.png';
@@ -9,7 +9,7 @@ import MobileMenuIcon from '../../assets/navbar/mobile-menu.svg';
 const desktopNav = (props) => (
   <nav className={`Navbar ${!props.userIsScrolled ? "extraLargeNavbar" : ""}`}>
     <div className="wrapper-nav flex-s-between">
-      
+
       <div>
         <Link to="hero" spy={true} smooth={true} offset={0} duration={500}>
           <img src={LogoImg} alt="logo" className="logo" />
@@ -19,29 +19,29 @@ const desktopNav = (props) => (
       <div className="mobile__menu" onClick={props.mobileMenuOpen}>
         <img src={MobileMenuIcon} alt="menu" />
       </div>
-     
+
       <div className="desktop__menu font20 weight400">
         <ul className="flex-s-between">
-        <li>
+          <li>
             <Link activeClass="active_nav" to="hero" spy={true} smooth={true} offset={-70} duration={500}>
               <span className="my-hover-1">About</span>
             </Link>
           </li>
           <li>
             <Link activeClass="active_nav" to="portfolio" spy={true} smooth={true} offset={-70} duration={500}>
-               <span className="my-hover-1">Work</span>
+              <span className="my-hover-1">Work</span>
             </Link>
           </li>
           <li>
             <Link activeClass="active_nav" to="contact" spy={true} smooth={true} offset={-70} duration={500}>
-            <span className="my-hover-1">Contact</span>
+              <span className="my-hover-1">Contact</span>
             </Link>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1OrH_U13bnTzALbn7SXmCQvfhkSc7i0Ur/view?usp=sharing">
-            <span className="my-hover-1">Resume</span>
+            <a href="https://drive.google.com/file/d/15dsf3w0PskfZXSu9XJTacS4YIVVHzB0u/view?usp=sharing">
+              <span className="my-hover-1">Resume</span>
             </a>
-           
+
           </li>
         </ul>
       </div>
