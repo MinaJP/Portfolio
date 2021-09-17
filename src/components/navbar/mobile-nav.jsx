@@ -11,21 +11,21 @@ const mobileNav = (props) => (
     <div className="mobile__navbar-close" onClick={props.closeMobileMenu}>
       <img src={CloseIcons} alt="close" />
     </div>
-   
+
     <div className="mobile__navbar-menu">
       <ul>
-      <li className="flex-center">
-      <Link
-      activeClass="active-link"
-        to="hero"
-        spy={false}
-        smooth={true}
-        offset={0}
-      
-        onClick={props.closeMobileMenu}
-      >
-       About
-      </Link>
+        <li className="flex-center">
+          <Link
+            activeClass="active-link"
+            to="hero"
+            spy={false}
+            smooth={true}
+            offset={0}
+
+            onClick={props.closeMobileMenu}
+          >
+            About
+          </Link>
         </li>
         <li className="flex-center">
           <Link
@@ -34,7 +34,7 @@ const mobileNav = (props) => (
             spy={false}
             smooth={true}
             offset={-70}
-       
+
             onClick={props.closeMobileMenu}
           >
             Work
@@ -54,7 +54,7 @@ const mobileNav = (props) => (
           </Link>
         </li>
         <li className="flex-center">
-          <a href="https://drive.google.com/file/d/1Pi2zPDf9EUAu313QxUQfr0TrHvyrcz74/view?usp=sharing">Resume</a>
+          <a href="https://github.com/MinaJP/Portfolio/pull/new/change_resume_link">Resume</a>
         </li>
       </ul>
     </div>
